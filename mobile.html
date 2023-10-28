@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <script type="text/javascript">
+        function redirectToMobilePage() {
+            if (window.innerWidth > 1000) {
+                // Si la pantalla es menor a 1000px, redirigir al archivo HTML para pantallas pequeñas
+                window.location.href = "index.html";
+            }
+        }
+
+        // Llamar a la función inicialmente para configurar el redireccionamiento cuando la página se carga
+        redirectToMobilePage();
+
+        // Agregar un evento de redimensionamiento
+        window.addEventListener('resize', redirectToMobilePage);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <div class="cuerpo vh-100 overflow-hidden">
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+            <div class="container">
+                <a class="navbar-brand fs-4" href="#"><img src="f5.png" width="45px" height="45px"></a>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>                                          
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-lg-row justify-content-center align-items-center gap-3">
+                        <a href="" class="text-white"><img src="espana.png" width="30px" height="30px"></a>
+                        <a href="" class="text-white text-decoration-none px-3 py-1 rounded-4">
+                            <img src="ing.png" width="30px" height="30px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+    </div>
+    <br><br>
+    <h1 id="servicios" class="text-center">SERVICIOS</h1><br>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-auto">
+        <div class="col-lg-4 col-md-6 justify-content-center">
+            <div class="card mx-auto position-relative"> <!-- Añade "position-relative" al contenedor card -->
+              <img src="soft.jpg" class="card-img-top" alt="Skyscrapers" />
+              
+              <div class="card-overlay"> <!-- Agrega un div para el texto superpuesto -->
+                <p class="card-text">SOFTWARE</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 justify-content-center">
+            <div class="card mx-auto position-relative"> <!-- Añade "position-relative" al contenedor card -->
+              <img src="web.jpg" class="card-img-top" alt="Skyscrapers" />
+              
+              <div class="card-overlay"> <!-- Agrega un div para el texto superpuesto -->
+                <p class="card-text">PAGINAS WEB</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 justify-content-center">
+            <div class="card mx-auto position-relative"> <!-- Añade "position-relative" al contenedor card -->
+              <img src="seg.jpg" class="card-img-top" alt="Skyscrapers" />
+              
+              <div class="card-overlay"> <!-- Agrega un div para el texto superpuesto -->
+                <p class="card-text">CIBERSEGURIDAD</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 justify-content-center">
+            <div class="card mx-auto position-relative"> <!-- Añade "position-relative" al contenedor card -->
+              <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg" class="card-img-top" alt="Skyscrapers" />
+              
+              <div class="card-overlay"> <!-- Agrega un div para el texto superpuesto -->
+                <p class="card-text">GESTION DE REDES SOCIALES</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 justify-content-center">
+            <div class="card mx-auto position-relative"> <!-- Añade "position-relative" al contenedor card -->
+              <img src="https://sitechecker.pro/wp-content/uploads/2018/02/Knowledge-base-part-3_what-is-seo.jpg" class="card-img-top" alt="Skyscrapers" />
+              
+              <div class="card-overlay"> <!-- Agrega un div para el texto superpuesto -->
+                <p class="card-text">SEO</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 justify-content-center">
+            <div class="card mx-auto position-relative"> <!-- Añade "position-relative" al contenedor card -->
+              <img src="https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Skyscrapers" />
+              
+              <div class="card-overlay"> <!-- Agrega un div para el texto superpuesto -->
+                <p class="card-text">DISEÑO GRAFICO</p>
+              </div>
+            </div>
+        </div>
+          
+    </div>
+
+    <h1 id="proyectos" class="text-center">PROYECTOS</h1><br>
+
+    <div style="text-align:center;">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-align: center; width: 250px; height: 90px;  " >
+          PROYECTO 1 <br><img src="cursor.png" width="28px" height="28px">
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade custom-centered-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              ...
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+          </div>
+          </div>
+      </div>
+  
+  
+      <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-align: center; width: 250px; height: 90px; " >
+          PROYECTO 2 <br><img src="cursor.png" width="28px" height="28px">
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade custom-centered-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              ...
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+          </div>
+          </div>
+      </div>
+  
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-align: center; width: 250px; height: 90px;  " >
+          PROYECTO 3 <br><img src="cursor.png" width="28px" height="28px">
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade custom-centered-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              ...
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+          </div>
+          </div>
+      </div>
+  
+  
+      <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-align: center; width: 250px;  height: 90px;" >
+          PROYECTO 4 <br><img src="cursor.png" width="28px" height="28px">
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade custom-centered-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              ...
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+          </div>
+          </div>
+      </div>
+
+      <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-align: center; width: 250px;  height: 90px;" >
+        PROYECTO 5 <br><img src="cursor.png" width="28px" height="28px">
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade custom-centered-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            ...
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-align: center; width: 250px;  height: 90px;" >
+      PROYECTO 6 <br><img src="cursor.png" width="28px" height="28px">
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade custom-centered-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          ...
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+      </div>
+      </div>
+  </div>
+  
+  </div>
+
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.781);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Kevin Fernandez</a>
+      <br>Telefono: 849-876-9958
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+
+
+      <script src="js.js"></script>
+
+
+
+</body>
+</html>
